@@ -8,7 +8,7 @@ exports.plugin = {
                 path: "/api/test",
                 config: {
                     handler: (request: any, reply: any) => {
-                        return reply("Works.");
+                        return "Works.";
                     }
                 }
             }
